@@ -30,10 +30,4 @@ public class TC_003 extends BaseClass {
 		CreatingNewLeadPage cnlp = new CreatingNewLeadPage(driver);
 		cnlp.createNewLead(lName, company, title, noOfEmployees, mobile, city, state, country);
 	}
-	
-	@Test
-	public void m1()
-	{
-		System.out.println("Hi");
-	}
 }
